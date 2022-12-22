@@ -1,0 +1,46 @@
+.bracketContainer {
+    /* border: solid red; */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    /* flex-wrap: wrap; */
+    text-align: left;
+}
+
+.bracketContainer> *{
+    /* border: solid green; */
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+}
+
+squad> *{
+    /* border: solid black; */
+    margin: 0.5rem;
+    padding: 0.5rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+teamelement {
+    display: flex;
+}
+
+teamelement> *{
+    /* border: solid orange; */
+}
+teamelement>games {
+    border: solid purple;
+}
+#multiplierList {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#multiplierList>* {
+    max-width: 2rem;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+}
+
+.tournamentContainer {
+    border: solid red;
+    min-height: 100%;
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.tournamentContainer>div {
+    border: solid lime;
+    box-sizing: content-box;
+    max-width: 10rem;
+    max-height: 10rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    overflow-wrap: break-word;
+    margin: 2rem;
+    padding: 1rem;
+}
